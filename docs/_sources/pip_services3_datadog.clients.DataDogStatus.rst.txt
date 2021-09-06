@@ -1,0 +1,7 @@
+pip\_services3\_datadog.clients.DataDogStatus module
+====================================================
+
+.. automodule:: pip_services3_datadog.clients.DataDogStatus
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+pip\_services3\_datadog.build.DefaultDataDogFactory module
+==========================================================
+
+.. automodule:: pip_services3_datadog.build.DefaultDataDogFactory
+   :members:
+   :undoc-members:
+   :show-inheritance:

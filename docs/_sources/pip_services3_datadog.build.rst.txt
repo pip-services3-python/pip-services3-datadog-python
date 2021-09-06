@@ -1,0 +1,18 @@
+pip\_services3\_datadog.build package
+=====================================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   pip_services3_datadog.build.DefaultDataDogFactory
+
+Module contents
+---------------
+
+.. automodule:: pip_services3_datadog.build
+   :members:
+   :undoc-members:
+   :show-inheritance:

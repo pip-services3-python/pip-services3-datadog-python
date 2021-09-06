@@ -1,0 +1,7 @@
+pip\_services3\_datadog.clients.DataDogLogMessage module
+========================================================
+
+.. automodule:: pip_services3_datadog.clients.DataDogLogMessage
+   :members:
+   :undoc-members:
+   :show-inheritance:

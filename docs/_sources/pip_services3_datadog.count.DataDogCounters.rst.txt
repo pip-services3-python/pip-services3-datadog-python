@@ -1,0 +1,7 @@
+pip\_services3\_datadog.count.DataDogCounters module
+====================================================
+
+.. automodule:: pip_services3_datadog.count.DataDogCounters
+   :members:
+   :undoc-members:
+   :show-inheritance:

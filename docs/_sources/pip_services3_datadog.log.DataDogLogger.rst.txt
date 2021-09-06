@@ -1,0 +1,7 @@
+pip\_services3\_datadog.log.DataDogLogger module
+================================================
+
+.. automodule:: pip_services3_datadog.log.DataDogLogger
+   :members:
+   :undoc-members:
+   :show-inheritance:

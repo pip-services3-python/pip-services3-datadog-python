@@ -1,0 +1,7 @@
+pip\_services3\_datadog.clients.DataDogMetricPoint module
+=========================================================
+
+.. automodule:: pip_services3_datadog.clients.DataDogMetricPoint
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,21 @@
+pip\_services3\_datadog package
+===============================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   pip_services3_datadog.build
+   pip_services3_datadog.clients
+   pip_services3_datadog.count
+   pip_services3_datadog.log
+
+Module contents
+---------------
+
+.. automodule:: pip_services3_datadog
+   :members:
+   :undoc-members:
+   :show-inheritance:

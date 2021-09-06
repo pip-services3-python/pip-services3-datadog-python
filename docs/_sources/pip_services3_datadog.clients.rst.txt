@@ -1,0 +1,24 @@
+pip\_services3\_datadog.clients package
+=======================================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   pip_services3_datadog.clients.DataDogLogClient
+   pip_services3_datadog.clients.DataDogLogMessage
+   pip_services3_datadog.clients.DataDogMetric
+   pip_services3_datadog.clients.DataDogMetricPoint
+   pip_services3_datadog.clients.DataDogMetricType
+   pip_services3_datadog.clients.DataDogMetricsClient
+   pip_services3_datadog.clients.DataDogStatus
+
+Module contents
+---------------
+
+.. automodule:: pip_services3_datadog.clients
+   :members:
+   :undoc-members:
+   :show-inheritance:
