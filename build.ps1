@@ -19,7 +19,7 @@ if (-not (Test-Path -Path "docker/id_rsa")) {
 }
 
 # Build docker image
-docker build -f docker/Dockerfile -t $buildImage .
+docker build -f docker/Dockerfile.build -t $buildImage .
 
 # Create and destroy container
 docker create --name $container $buildImage
