@@ -195,7 +195,7 @@ class DataDogCounters(CachedCounters, IReferenceable, IOpenable):
 
         return metrics
 
-    def _save(self, counters: List[Counter]):
+    def _save(self, counters: List[Counter]) -> Any:
         """
         Saves the current counters measurements.
 

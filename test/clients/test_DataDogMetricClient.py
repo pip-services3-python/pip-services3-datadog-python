@@ -67,6 +67,4 @@ class TestDataDogMetricClient:
             )
         ]
 
-        result = self._client.send_metrics(None, metrics)
-
-        print(result)
+        self._client.send_metrics(None, metrics)

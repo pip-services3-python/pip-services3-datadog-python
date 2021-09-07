@@ -108,7 +108,7 @@ class DataDogMetricsClient(RestClient):
             'series': series
         }
 
-    def send_metrics(self, correlation_id: Optional[str], metrics: List[DataDogMetric]):
+    def send_metrics(self, correlation_id: Optional[str], metrics: List[DataDogMetric]) -> Any:
         data = self.__convert_metrics(metrics)
         # Commented instrumentation because otherwise it will never stop sending logs...
         # timing = self._instrument(correlation_id, 'datadog.send_metrics')
