@@ -11,8 +11,8 @@ from pip_services3_commons.run import IOpenable
 from pip_services3_components.info import ContextInfo
 from pip_services3_components.log import CachedLogger, LogMessage
 
-from pip_services3_datadog.clients.DataDogLogClient import DataDogLogClient
-from pip_services3_datadog.clients.DataDogLogMessage import DataDogLogMessage
+from pip_services3_datadog.clients import DataDogLogClient
+from pip_services3_datadog.clients import DataDogLogMessage
 
 
 class DataDogLogger(CachedLogger, IReferenceable, IOpenable):

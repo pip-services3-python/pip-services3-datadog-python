@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import socket
-from typing import Optional, List
+from typing import Optional, List, Any
 
 from pip_services3_commons.config import ConfigParams
 from pip_services3_commons.refer import IReferenceable, IReferences, Descriptor
@@ -9,10 +9,10 @@ from pip_services3_components.count import CachedCounters, Counter, CounterType
 from pip_services3_components.info import ContextInfo
 from pip_services3_components.log import CompositeLogger
 
-from pip_services3_datadog.clients.DataDogMetric import DataDogMetric
-from pip_services3_datadog.clients.DataDogMetricPoint import DataDogMetricPoint
-from pip_services3_datadog.clients.DataDogMetricType import DataDogMetricType
-from pip_services3_datadog.clients.DataDogMetricsClient import DataDogMetricsClient
+from pip_services3_datadog.clients import DataDogMetric
+from pip_services3_datadog.clients import DataDogMetricPoint
+from pip_services3_datadog.clients import DataDogMetricType
+from pip_services3_datadog.clients import DataDogMetricsClient
 
 
 class DataDogCounters(CachedCounters, IReferenceable, IOpenable):

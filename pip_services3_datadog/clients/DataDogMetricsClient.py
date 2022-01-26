@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import datetime
-from typing import Optional, List
+from typing import Optional, List, Any
 
 from pip_services3_commons.config import ConfigParams
 from pip_services3_commons.convert import StringConverter
@@ -9,8 +9,8 @@ from pip_services3_commons.refer import IReferences
 from pip_services3_components.auth import CredentialResolver
 from pip_services3_rpc.clients import RestClient
 
-from pip_services3_datadog.clients.DataDogMetric import DataDogMetric
-from pip_services3_datadog.clients.DataDogMetricPoint import DataDogMetricPoint
+from .DataDogMetric import DataDogMetric
+from .DataDogMetricPoint import DataDogMetricPoint
 
 
 class DataDogMetricsClient(RestClient):

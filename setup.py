@@ -3,13 +3,12 @@ Pip.Services DataDog
 ----------------------
 
 Pip.Services is an open-source library of basic microservices.
-pip_services3_datadog provides synchronous and asynchronous communication components.
 
 Links
 `````
 
 * `website <http://github.com/pip-services-python/>`_
-* `development version <http://github.com/pip-services3-python/pip-services3-aws-python>`
+* `development version <http://github.com/pip-services3-python/pip-services3-datadog-python>`
 
 """
 
@@ -23,7 +22,7 @@ except:
 
 setup(
     name='pip_services3_datadog',
-    version='3.0.0',
+    version='3.0.1',
     url='http://github.com/pip-services3-python/pip-services3-datadog-python',
     license='MIT',
     author='Conceptual Vision Consulting LLC',
@@ -36,9 +35,9 @@ setup(
     zip_safe=True,
     platforms='any',
     install_requires=[
-        'pip-services3-commons',
-        'pip-services3-components',
-        'pip-services3-rpc'
+        'pip_services3_commons >= 3.3.11, < 4.0',
+        'pip_services3_components >= 3.5.6, < 4.0',
+        'pip_services3_rpc >= 3.3.0, < 4.0'
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -46,7 +45,6 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',

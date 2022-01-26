@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from typing import List, Any
 
-from pip_services3_datadog.clients.DataDogMetricPoint import DataDogMetricPoint
+from .DataDogMetricPoint import DataDogMetricPoint
 
 
 class DataDogMetric:

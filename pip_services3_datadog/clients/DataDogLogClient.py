@@ -9,7 +9,7 @@ from pip_services3_commons.refer import IReferences
 from pip_services3_components.auth import CredentialResolver
 from pip_services3_rpc.clients import RestClient
 
-from pip_services3_datadog.clients.DataDogLogMessage import DataDogLogMessage
+from .DataDogLogMessage import DataDogLogMessage
 
 
 class DataDogLogClient(RestClient):
