@@ -1,5 +1,5 @@
 {
-    "name":  "pip_services3_datadog",
+    "name":  "pip-services3-datadog",
     "type": "module",
     "language": "python",
     "version": "3.0.1",
